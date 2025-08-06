@@ -1,5 +1,5 @@
 {
-  "name": "Enrich Token By Scopes action",
+  "name": "enrich-token-by-scopes",
   "description": "Checks requested scopes against backend consent server and allows or denies access accordingly.",
   "runtime": "node18",
   "supported_triggers": ["post-login"],

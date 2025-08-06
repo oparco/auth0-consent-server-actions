@@ -1,5 +1,5 @@
 {
-  "name": "General Document Check",
+  "name": "general-document-check",
   "description": "Redirects to the Consent Server if user hasn't signed required consents",
   "runtime": "node18",
   "supported_triggers": ["post-login"],
