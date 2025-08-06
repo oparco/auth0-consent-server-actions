@@ -1,0 +1,13 @@
+{
+  "name": "M2MTokenHandler",
+  "description": "Fetches and caches Auth0 M2M access token for other Actions.",
+  "runtime": "node18",
+  "supported_triggers": ["post-login"],
+  "secrets": [
+    "AUTH0_CUSTOM_DOMAIN",
+    "CLIENT_ID",
+    "CLIENT_SECRET",
+    "ACCOUNT_API"
+  ],
+  "status": "built"
+}
