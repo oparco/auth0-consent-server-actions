@@ -1,0 +1,12 @@
+{
+  "name": "General Document Check",
+  "description": "Redirects to the Consent Server if user hasn't signed required consents",
+  "runtime": "node18",
+  "supported_triggers": ["post-login"],
+  "secrets": [
+    "CONSENT_SERVER_REDIRECT_URL",
+    "CONSENT_SERVER_BACKEND_URL",
+    "SESSION_TOKEN_SECRET"
+  ],
+  "status": "built"
+}
