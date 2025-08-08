@@ -1,4 +1,35 @@
-## How It Works
+# Business and Marketing content
+
+## Scope Management
+### Scopes for an application are configurable.
+OpenID Connect \(OIDC\) scopes are used by an application during authentication to authorize access to user-related data. Each scope controls which user-related attributes can be delivered to an integrated application in context of this user. The scopes an application should request, depends which user attributes the application needs and the user has to provide approval for data-processing.
+- Support of atomic scopes and composite scopes
+- Scopes can be mandatory and optional
+- Every scope can be configured with an application-based purpose based on the regulations of GDPR
+- Approved scopes can be maintained or rejected inside a self-service portal by the user
+- Historization is automatically created for GDPR reports
+
+## User-Consent via Document-Consent
+### Documents / legal text can be dynamically configured including the corresponding scope-set.
+OpenID Connect (OIDC) scopes are sometimes not easy to understand by users and individual approvals per scope presents the scope-screen more often to the user as business processes wants to have. Document-Consent provides an option to just approve a legal document and all related scopes behind the document will be approved automatically.
+
+- document versioning and multi-languages are supported
+- support of atomic scopes and composite scopes is also available
+- consenting by user is integrated into the login flow and can consists of more than one document – esp. terms & conditions + data privacy statement
+- Support of country differantiation
+- approvals of legal documents can be maintained and rejected inside a self-service portal by the user
+- historization is automatically created for GDPR reports
+
+
+## User-Consent via Marketing Document-Consent
+### Marketing-Permission is based on Document-Consent including approved communication-channels for marketing information
+A marketing permission is the customer’s explicit consent to receive marketing information via the channels specified by the customer, such as email, phone calls, push notifications or postal letters. Marketing-Permissions can be rejected or approved by the users at any time.
+
+- marketing-Permissions can have scopes to read user-related information to generate personalized marketing information
+- document versioning and multi-languages are supported
+- support of country differantiation
+- approvals of marketing documents can be maintained and rejected inside a self-service portal by the user
+- historization is automatically created for GDPR reports
 
 This project consists of three main applications that work together to manage user consent for various document types:
 
